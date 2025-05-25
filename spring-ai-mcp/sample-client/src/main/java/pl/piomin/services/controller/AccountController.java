@@ -23,13 +23,10 @@ public class AccountController {
     private final static Logger LOG = LoggerFactory.getLogger(PersonController.class);
     private final ChatClient chatClient;
 
-//    @Autowired
-//    private List<McpSyncClient> mcpSyncClients;
-
     public AccountController(ChatClient.Builder chatClientBuilder,
                             ToolCallbackProvider tools) {
         this.chatClient = chatClientBuilder
-                .defaultTools(tools)
+                .defaultToolCallbacks(tools)
                 .build();
     }
 
