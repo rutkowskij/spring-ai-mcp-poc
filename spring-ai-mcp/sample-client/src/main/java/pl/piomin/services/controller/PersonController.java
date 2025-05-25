@@ -28,10 +28,7 @@ public class PersonController {
                             ToolCallbackProvider tools,
                             List<McpSyncClient> mcpSyncClients) {
         this.chatClient = chatClientBuilder
-                .defaultTools(tools)
-//                .defaultAdvisors(
-//                        new PromptChatMemoryAdvisor(chatMemory),
-//                        new SimpleLoggerAdvisor())
+                .defaultToolCallbacks(tools)
                 .build();
         this.mcpSyncClients = mcpSyncClients;
     }
