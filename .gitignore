@@ -1,43 +1,10 @@
+HELP.md
 target/
-!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### IntelliJ IDEA ###
-.idea/
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
-.idea_modules/
-*.iws
-*.iml
-*.ipr
-out/
-
-### Java ###
-*.class
-*.log
-*.jar
-*.war
-*.ear
-*.zip
-*.tar.gz
-*.rar
-hs_err_pid*
-replay_pid*
-
-### Kotlin ###
-*.kotlin_module
-.kotlin/
-
-### Maven ###
-.mvn/
-mvnw
-mvnw.cmd
-.flattened-pom.xml
-
-### Eclipse ###
+### STS ###
 .apt_generated
 .classpath
 .factorypath
@@ -45,7 +12,12 @@ mvnw.cmd
 .settings
 .springBeans
 .sts4-cache
-bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
 
 ### NetBeans ###
 /nbproject/private/
@@ -59,7 +31,3 @@ build/
 
 ### VS Code ###
 .vscode/
-
-### OS specific ###
-.DS_Store
-Thumbs.db
