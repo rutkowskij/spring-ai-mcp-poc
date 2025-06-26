@@ -4,13 +4,38 @@ target/
 !**/src/test/**/target/
 
 ### IntelliJ IDEA ###
+.idea/
 .idea/modules.xml
 .idea/jarRepositories.xml
 .idea/compiler.xml
 .idea/libraries/
+.idea_modules/
 *.iws
 *.iml
 *.ipr
+out/
+
+### Java ###
+*.class
+*.log
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
+
+### Kotlin ###
+*.kotlin_module
+.kotlin/
+
+### Maven ###
+.mvn/
+mvnw
+mvnw.cmd
+.flattened-pom.xml
 
 ### Eclipse ###
 .apt_generated
@@ -20,6 +45,7 @@ target/
 .settings
 .springBeans
 .sts4-cache
+bin/
 
 ### NetBeans ###
 /nbproject/private/
@@ -34,5 +60,6 @@ build/
 ### VS Code ###
 .vscode/
 
-### Mac OS ###
+### OS specific ###
 .DS_Store
+Thumbs.db
